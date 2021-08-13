@@ -78,20 +78,36 @@
               <label for="email">Cantidad</label>
               <input type="int" class="form-control" name="cantidad" id="cantidad" placeholder="Escriba la cantidad" title="Ingrese la cantidad númerica">
             </div>
+	    <div class="form-group">
+              <label for="cliente">Nombre</label>
+              <input type="text" class="form-control" name="cliente" placeholder="Nombre del cliente" title="Ingrese el nombre del cliente">
+            </div>
+	    <div class="form-group">
+              <label for="correo">Correo</label>
+              <input type="text" class="form-control" name="correo" placeholder="Correo electrónico" title="Ingrese su correo electrónico">
+            </div>
+	    <div class="form-group">
+              <label for="direccion">Dirección</label>
+              <input type="text" class="form-control" name="direccion" placeholder="Domicilio" title="Ingrese su dirección">
+            </div>
+	    <div class="form-group">
+              <label for="zipcode">Código Postal</label>
+              <input type="text" class="form-control" name="zipcode" placeholder="Código Postal" title="Ingrese su código postal">
+            </div>
+	    <div class="form-group">
+                <label for="ciudad">Elija la ciudad:</label>
+                <select id="ciudad" name="ciudad">
+                  <option value="Huasco">Huasco</option>
+                  <option value="Mérida">Mérida</option>
+                  <option value="Zapopan">Zapopan</option>
+                </select>
+            </div>
             <div class="form-group">
                 <label for="pago">Elija la opción de pago:</label>
                 <select id="pago" name="pago">
                   <option value="transferencia">Transferencia</option>
                   <option value="Paypal">Paypal</option>
                   <option value="Skrill">Skril</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="ciudad">Elija la ciudad:</label>
-                <select id="ciudad" name="ciudad">
-                  <option value="Huasco">Huasco</option>
-                  <option value="Mérida">Mérida</option>
-                  <option value="Zapopan">Zapopan</option>
                 </select>
             </div>
             <div class="form-group">
@@ -152,7 +168,7 @@
              	<div class="col">
                     <h4>Noticias</h4>
                     <p>
-                    Enterese sobre los acontecimientos de DCLeaner.
+                    Enterese sobre los acontecimientos de DCleaner.
                     <br><br>
                     <a href="#" class="btn">Entérate!</a>
                     </p>
